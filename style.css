@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    border: 1px transparent solid;
+  }
+
+body {
+    background: transparent;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+.modal-backdrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.modal {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 30%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.modal-header{
+    height: 68px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+}
+
+.modal-title{
+    margin-left: 10px;
+}
+
+.modal-body{
+    height: 450px;
+}
+
+a{
+    font-size: 30px;
+    margin-left: 370px;
+    color: rgb(115, 115, 115);
+    background: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.modal-footer{
+    height: 68px;
+}
+
+                                    /*LINES*/
+
+.body-line{
+    width: 426px;
+    height: 1px;
+    background: silver;
+    overflow: hidden;
+}
+
+.footer-line{
+    bottom: 60px;
+    width: 426px;
+    height: 1px;
+    background: silver;
+    overflow: hidden;
+}
+
+                                    /*BUTTONS*/
+
+.cls-button{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-left: 900px;
+    bottom: -135px;
+    background: rgb(255, 255, 255);
+    color: rgb(115, 115, 115);
+}
+
+.cls-button:hover {
+    cursor: pointer;
+}
+
+.modal-footer button {
+    position: relative;
+    bottom: -20px;
+    left: 270px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(115, 115, 115);
+    color: white;
+}
+
+.modal-footer button:hover {
+    cursor: pointer;
+}
+
+button[class="btn btn-primary"] {
+    background: rgb(11, 92, 255);
+}
